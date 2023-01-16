@@ -31,6 +31,16 @@
 .ico-bilibili {
     background-image: url("./icons/bilibili.svg")
 }
+/*software*/
+.ico-photoshop{
+    background-image: url("./icons/PS.svg");
+}
+.ico-illustrator {
+    background-image: url("./icons/AI.svg");
+}
+.ico-macos {
+    background-image: url("./icons/macos.png");
+}
 /*miscellaneous*/
 .ico-igcse {
     background-image: url("./icons/IGCSE.svg");
@@ -44,13 +54,6 @@
 .ico-gender {
     background-image: url("./icons/gender.svg");
 }
-/*software*/
-.ico-photoshop{
-    background-image: url("./icons/PS.svg");
-}
-.ico-illustrator {
-    background-image: url("./icons/AI.svg");
-}
-.ico-macos {
-    background-image: url("./icons/macos.png");
+.ico-neurodiversity {
+    background-image: url("./icons/neurodiversity.svg");
 }
