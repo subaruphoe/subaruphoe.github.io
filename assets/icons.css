@@ -1,0 +1,56 @@
+.ico {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1em 1em;
+}
+/*flag*/
+.ico-trans {
+    background-image: url("./icons/trans.svg")
+}
+.ico-nonbi {
+    background-image: url("./icons/nonbi.svg")
+}
+/*social*/
+.ico-github {
+    background-image: url("./icons/github.svg")
+}
+.ico-mail {
+    background-image: url("./icons/mail.svg")
+}
+.ico-twitter {
+    background-image: url("./icons/twitter.svg")
+}
+.ico-telegram {
+    background-image: url("./icons/telegram.svg")
+}
+.ico-bilibili {
+    background-image: url("./icons/bilibili.svg")
+}
+/*miscellaneous*/
+.ico-igcse {
+    background-image: url("./icons/IGCSE.svg");
+}
+.ico-location {
+    background-image: url("./icons/location.svg");
+}
+.ico-lang {
+    background-image: url("./icons/lang.svg");
+}
+.ico-gender {
+    background-image: url("./icons/gender.svg");
+}
+/*software*/
+.ico-photoshop{
+    background-image: url("./icons/PS.svg");
+}
+.ico-illustrator {
+    background-image: url("./icons/AI.svg");
+}
+.ico-macos {
+    background-image: url("./icons/macos.png");
+}

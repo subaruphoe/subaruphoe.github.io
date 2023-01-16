@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html class="h-100" lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Subaru ad Astra (Mirai)的主頁</title>
+    <link href="assets/icons.css" rel="stylesheet" />
+    <link href="assets/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" href="assets/icons/adastra.ico" type="image/x-icon">
+    <style>
+      .card img {
+        max-width: 100%;
+      }
+      @font-face {
+        font-family: CL;
+        src: url(assets/cl.woff2);
+        font-display: swap;
+      }
+      footer {
+        font-family: CL, var(--bs-font-sans-serif);
+      }
+    </style>
+  </head>
+  <body class="d-flex flex-column h-100">
+    <header class="header">
+      <div class="container navbar d-flex">
+        <nav class="justify-content-start" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">English</a></li>
+            <li class="breadcrumb-item active">中文</li>
+            <li class="breadcrumb-item"><a href="wuu.html">上海閒話</a></li>            
+            <li class="breadcrumb-item"><a href="et.html">Eesti keel</a></li>
+          </ol>
+        </nav>
+        <div class="btn-group justify-content-end">
+          <a class="btn btn-outline-primary btn-sm active">漢</a>
+          <a href="zhs.html" class="btn btn-outline-primary btn-sm">汉</a>
+        </div>
+      </div>
+    </header>
+    <main class="flex-shrink-0">
+      <div class="container d-grid gap-3">
+        <div class="container-fluid d-flex justify-content-center">
+          <div class="list-group list-group-horizontal">
+            <a class="list-group-item" href="https://blog.subaru.adastra.name/">部落格</a>
+            <a class="list-group-item" href="https://wuu.wikipedia.org/wiki/User:%E3%82%AF%E3%83%95%E3%82%A3"
+              >吳語維基百科</a>
+          </div>
+        </div>
+      </div>
+      <div class="container d-grid gap-3">
+        <div class="container-fluid d-flex justify-content-center">
+          <div class="card" style="position: relative; margin-top: 80px">
+            <img
+              src="assets/images/profile.jpg"
+              style="
+                height: 100px;
+                width: 100x;
+                position: absolute;
+                top: -50px;
+                left: 30px;
+                border-radius: 50%;
+                border: 1px solid #ddd;
+              "
+            />
+            <div class="card-body">
+              <h2 class="card-title" style="margin-left: 130px; display:inline">
+                Subaru ad Astra 
+              </h2>
+              <h6 style="display:inline;"><i class="ico ico-location" role="img"></i>蘇州/上海, 中國</h6>
+              <div style="font-size: 1.5em">
+                <a href="https://github.com/subarupan"
+                  ><i class="ico ico-github"></i
+                ></a>
+                <a href="mailto:subaru@adastra.name"><i class="ico ico-mail"></i></a>
+                <a href="https://twitter.com/janSupalu"
+                  ><i class="ico ico-twitter"></i></a>
+                <a href="https://t.me/subarupan"
+                  ><i class="ico ico-telegram"></i></a>
+                <a href="https://space.bilibili.com/456015287"><i class="ico ico-bilibili"></i></a>
+              </div>
+              <p>哈囉 這裡是ad Astra家族的Subaru</p>
+              <p>
+                <i class="ico ico-nonbi" role="img"></i>
+                <i class="ico ico-trans" role="img"></i>
+                非二元＆跨兒驕傲
+              </p>
+              <p> 
+                <a href="https://zh.wikipedia.org/wiki/上海話">上海話</a>母語者
+              </p>
+              <p>
+                <a href="https://wuu.wikipedia.org/wiki/%E5%B0%81%E9%9D%A2">吳語維基百科</a>管理員，同時也是全域最年輕的管理員
+              </p>
+              <p>
+                <i class="ico ico-igcse" role="img"></i>
+                國際學校學生，在學IGCSE西班牙文＆電腦科學
+              </p>
+              <p>
+                <i class="ico ico-illustrator" role="img"></i>
+                <i class="ico ico-lang" role="img"></i>
+                <i class="ico ico-gender" role="img"></i>
+                什麼都會點什麼都想學，平面設計、語言學、性別研究、哲學
+              </p>
+              <p>
+                <i class="ico ico-macos" role="img"></i>
+                MacOS使用者
+              </p>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">
+          &#127279;<span id="year"></span> Subaru
+          <a href="sõbrad.html">友情連結</a>
+          <br />
+          <a href="https://icp.gov.moe/?keyword=XXXXXXXX" target="_blank"
+            >Moe ICP No.XXXXXXXX</a>
+          <br />
+          <a href="https://adastra.name/"
+            ><img src="assets/ad-astra-wuu-web.svg" style="height: 3em"
+          /></a>
+        </span>
+      </div>
+    </footer>
+    <script src="assets/bootstrap.bundle.min.js"></script>
+  </body>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</html>
